@@ -1,0 +1,33 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+這樣才能記錄自己的commits, 原本的地方會多一個.git
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+staging area和repository是不同區域, staging area讓使用者可以先做好修改,再一次性提交多個文件去repository
+"status"可以同時顯示staging area和working directory的內容
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+用git diff --staged或git diff 來反覆確認要提交的檔案
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+在需要不同版本的程式時,分支可以幫助使用者管理歷史紀錄, 利用建立分支來對程式做不同修改, 不會影響到原先的主程式(master)
+
+How do the diagrams help you visualize the branch structure?
+
+圖像化可以幫助理解分支和master的關係
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+兩個分支的commit會合併一起
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+自動合併可能會產生使用者無法預期的錯誤或衝突, 手動合併雖然麻煩但可以避免這問題
