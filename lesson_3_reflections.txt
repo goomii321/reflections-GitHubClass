@@ -21,7 +21,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    應該就是各寫各的,然後最後都寄給某個人讓他處理合併程式的工作? 如果沒有git&github協同工作會更困難也更耗精力
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
