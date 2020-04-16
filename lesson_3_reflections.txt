@@ -26,4 +26,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    當我有想要測試或嘗試的實驗性項目的時候, 就會想要開一個新分支來做試驗, 如果直接在master上的話怕會有bug, 當然若只是很小的改動, 也許直接在master上修改會比較省時間
